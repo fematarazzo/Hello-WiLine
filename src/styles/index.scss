@@ -4,4 +4,96 @@
 }
 
 @import 'variables';
-@import 'scaffolding';
+
+body {
+  background: $background-color;
+}
+
+#c {
+  background: $background-color;
+}
+
+.container {
+  background: $background-color;
+  color: white;
+  p {
+    color: white;
+  }
+  h2 {
+    color: white;
+  }
+  label {
+    color: white;
+    margin-top: 7px;
+  }
+  li {
+    list-style-type: none;
+    font-size: 20px;
+  }
+}
+
+html {
+  font-size: $font-size;
+  font-family: $font-family;
+  background: $background-color;
+  color: $font-color;
+  line-height: 1.4;
+}
+
+body {
+  margin: auto;
+  text-align: center;
+  max-width: $page-width;
+}
+
+#search-input-three {
+  width: 120px;
+  text-align: center;
+}
+
+.box-white {
+  border: 1px solid white;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.red {
+  color: red !important;
+}
+
+.fade-in {
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+
+}
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+.btn {
+  width: 160px;
+}
